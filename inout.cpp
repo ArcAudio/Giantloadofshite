@@ -18,7 +18,7 @@ void Inout::Init(float sample_rate)
 float Inout::Process(float in)
 {
     float out;
-    //compute(2,in,out);
+    compute(2, (float**)in,out);
     return out;
 }
 
